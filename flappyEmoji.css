@@ -1,0 +1,40 @@
+#border {
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    padding: 0;
+    width: 240px;
+    height: 400px;
+    border: black solid 1px;
+    overflow: hidden;
+}
+#bird {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-image: url("emoji.png");
+    top: 190px;
+    left: 90px;
+    margin: 0;
+}
+.top, .bottom{
+    border: solid 2px seagreen;
+}
+.top {
+    position: absolute;
+    width: 40px;
+    top:0;
+    margin: 0;
+    background-color: green;
+}
+.bottom {
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    margin: 0;
+    bottom: 0;
+    background-color: green;
+}
+h1,h2 {
+    text-align: center;
+}
